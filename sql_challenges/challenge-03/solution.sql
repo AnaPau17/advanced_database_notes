@@ -16,8 +16,5 @@ SELECT role, COUNT(*) AS employees_role FROM employees
 GROUP BY role;
 
 SELECT role, SUM(years_employed) FROM employees
-WHERE role = "Engineer";
---or
-SELECT role, SUM(years_employed) FROM employees
 GROUP BY role
 HAVING role = "Engineer";
