@@ -18,3 +18,18 @@ GROUP BY role;
 SELECT role, SUM(years_employed) FROM employees
 GROUP BY role
 HAVING role = "Engineer";
+
+
+-- three try-it from freesql.com
+select count(distinct shape) number_of_shapes,
+       stddev(distinct weight) distinct_weight_stddev
+from   bricks;
+
+select shape, sum(weight) shape_weight
+from   bricks
+group by shape;
+
+select shape, sum ( weight )
+from   bricks
+having sum(weight)<4
+group  by shape;
