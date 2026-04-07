@@ -75,4 +75,4 @@ row 2 -> 0.8826
 row 3 -> 0.8938
 
 --Is it high or low? Why?
-The results were high, which means low similarity, which makes sense, since the question has nothing to do with the article.
+The results were high, which means low similarity, which makes sense, since the question has nothing to do with the article. 
